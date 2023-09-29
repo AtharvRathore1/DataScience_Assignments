@@ -1,0 +1,49 @@
+#Data Science assignment2
+#Atharv Rathore 12
+
+#1
+scores = [35, 50, 20, 30, 55, 75, 90, 95, 66, 80]
+
+for i in scores:
+    if i > 70:
+        print("Distinction",i)
+    elif 60 <= i <= 70:
+        print("First Class",i)
+    elif 50 <= i < 60:
+        print("Second Class",i)
+    elif 35 <= i < 50:
+        print("Just Pass",i)
+    else:
+        print("Fail",i)
+#2
+Book_price = {'Python': 600, 'Java': 400, 'Web_Tech': 550, 'OS': 450, 'IT': 700}
+
+for book, price in Book_price.items():
+    if price > 500:
+        print(f"{book},{price}")
+#3
+List = [1, 2, 3, 4, 5, 6, 7]
+for i in List:
+    print(i**2)
+
+#4
+list1 = ["Hello ", "take "]
+list2 = ["Dear", "Sir"]
+
+for i in list1:
+    for j in list2:
+        print(i + j)
+
+#5
+List = [100, 200, 300, 400, 500]
+i = List[::-1]
+print(i)
+
+#6
+list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
+i = list1[2][2]
+i.append(7000)
+print(list1)
+
+#7
+
